@@ -5,18 +5,10 @@ public class Pesawat extends Kendaraan{
     double Speed = 900;
 
     public void infoSpeed(){
-        System.out.println(Speed);
+        System.out.println("Kecepatan Pesawat: "+Speed+ "Km/jam");
      }
- 
-     public void infoBerat(){
-         System.out.println(Berat);
-      }
- 
-      public void infokapasitasMesin(){
-         System.out.println(kapasitasMesin);
-      }
 
       public void infoKetinggian(){
-        System.out.println(Ketinggian);
+        System.out.println("Ketinggian Pesawat: "+ Ketinggian+ "Meter");
       }
 }

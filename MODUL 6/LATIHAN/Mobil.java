@@ -5,18 +5,10 @@ public class Mobil extends Kendaraan {
     double Speed = 120;
 
     public void infoSpeed(){
-        System.out.println(Speed);
+        System.out.println("Kecepatan Mobil: "+ Speed+"Km/jam");
      }
- 
-     public void infoBerat(){
-         System.out.println(Berat);
-      }
- 
-      public void infokapasitasMesin(){
-         System.out.println(kapasitasMesin);
-      }
 
       public void infoisiTangki(){
-        System.out.println(isiTangki);
+        System.out.println("Kapasitas Tangki: "+isiTangki+"L");
       }
 }

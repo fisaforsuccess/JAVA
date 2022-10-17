@@ -7,6 +7,7 @@ public class Persegi extends BangunDatar{
         luas = sisi * sisi;
         return luas;
     }
+   
 
     public double hitungKeliling(){
         keliling = sisi * 4;

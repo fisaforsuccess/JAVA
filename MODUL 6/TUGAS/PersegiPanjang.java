@@ -1,7 +1,7 @@
 package TUGAS;
 
 public class PersegiPanjang {
-    double panjang = 3;
+    int panjang = 3;
     double lebar = 10;
 
     public double hitungLuas(){
